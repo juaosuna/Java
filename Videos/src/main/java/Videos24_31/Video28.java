@@ -11,13 +11,13 @@ public class Video28 {
    public static void main(String[] args) {
        //llamar a la clase 
         //aca se esta utilizando el metodo constructor
-        movieDeVideo25 StivenFuture = new movieDeVideo25();
+        movieDeVideo25 Vikings = new movieDeVideo25();
         movieDeVideo25 toyStory = new movieDeVideo25(" Toy Story"," Familiar",90);
-        movieDeVideo25 StarWars = new movieDeVideo25(" Star Wars"," Ciencia Ficcion",180);
+        movieDeVideo25 backToTheFuture = new movieDeVideo25(" backToTheFuture"," Ciencia Ficcion",120);
         
-        System.out.println(StivenFuture.getTitulo()+ " " + StivenFuture.getGenero()+" "+ StivenFuture.getDuracion() );
+        System.out.println(backToTheFuture.getTitulo()+ " " + backToTheFuture.getGenero()+" "+ backToTheFuture.getDuracion() );
         System.out.println(toyStory.getTitulo()+ " " + toyStory.getGenero()+" "+ toyStory.getDuracion() );
-        System.out.println(StarWars.getTitulo()+ " " + StarWars.getGenero()+" "+ StarWars.getDuracion());
+        System.out.println(toyStory.getTitulo()+ " " + toyStory.getGenero()+" "+ toyStory.getDuracion());
         
         movieDeVideo25 madMax = new movieDeVideo25(" MadMax furia en el camino"," Accion",90);
         
